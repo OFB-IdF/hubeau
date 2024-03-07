@@ -50,7 +50,10 @@ API documentation: <https://hubeau.eaufrance.fr/page/api-poisson>
 
 Available function:
 
-- [get_poisson_observations()]: scientific fishery observations
+- [get_poisson_operations()]: sampling operations carried out at stations measuring the quality of rivers
+- [get_poisson_observations()]: fish observations made during sampling operations
+- [get_poisson_indicateurs()]: the IPR and IPR+ indicators calculated from fish observations
+- [get_poisson_stations()]: stations measuring the quality of rivers
 
 ## API "Prélèvements en eau"
 
@@ -73,6 +76,17 @@ Available functions:
 - [get_qualite_eau_potable_resultats_dis()]: samples, analysis results and sanitary 
   conclusions from the sanitary control of the distributed water commune by commune
   
+## API "Qualité des cours d'eau"
+
+API documentation: <https://hubeau.eaufrance.fr/page/api-qualite-cours-deau>
+
+Available functions:
+
+- [get_qualite_rivieres_station()]: stations (measuring points) on rivers or water bodies where water samples have been taken for water quality analyses
+- [get_qualite_rivieres_operation()]: sampling operations carried out at the stations
+- [get_qualite_rivieres_analyse()]: physico-chemical analyses carried out on samples prepared during sampling operations at the stations
+- [get_qualite_rivieres_condition_environnementale()]: environmental conditions (air temperature, presence of leaves, moss, iridescence, etc.) observed during physico-chemical sampling operations
+
 ## API "Qualité des nappes d'eau souterraines"
 
 API documentation: <https://hubeau.eaufrance.fr/page/api-qualite-nappes>
